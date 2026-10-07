@@ -3,7 +3,7 @@ module dut_reference #(
     parameter DATA_W = 128,
     parameter Q = 2,
     parameter M = 2,
-    parameter D = 2**q 
+    parameter D = 2**Q 
 )(
     input clk,
     input rst_n,
