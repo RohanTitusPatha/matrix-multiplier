@@ -1,6 +1,6 @@
 # Matrix Multiplier — Reference RTL (Mid-Term)
 
-Educational/reference RTL for the Matrix Multiplication Unit project.
+RTL for the Matrix Multiplication Unit project.
 
 Current scope: **Parts 1–5 only**.
 
