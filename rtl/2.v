@@ -1,2 +1,14 @@
-localparam IDLE=4'd0, READ_INFO=4'd1, GET_INFO=4'd2, LOAD_INPUT=4'd3, SAVE_INPUT=4'd4, START_ROW=4'd5, READ_GATE=4'd6, GET_GATE=4'd7, ACCUMULATE=4'd8, WRITE_OUT=4'd9, NEXT_ROW=4'd10, FINISH=4'd11;
+localparam IDLE = 4'd0,
+           READ_INFO = 4'd1,
+           GET_INFO = 4'd2,
+           LOAD_INPUT = 4'd3,
+           SAVE_INPUT = 4'd4,
+           START_ROW = 4'd5,
+           READ_GATE = 4'd6,
+           GET_GATE = 4'd7,
+           ACCUMULATE = 4'd8,
+           WRITE_OUT = 4'd9,
+           NEXT_ROW = 4'd10,
+           FINISH = 4'd11;
+
 reg [3:0] state;
