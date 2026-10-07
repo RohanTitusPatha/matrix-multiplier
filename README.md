@@ -2,7 +2,7 @@
 
 RTL for the Matrix Multiplication Unit project.
 
-Current scope: **Parts 1–5 only**.
+Current stage: **On going stage**.
 
 1. Module declaration, parameters and ports
 2. FSM state definitions
