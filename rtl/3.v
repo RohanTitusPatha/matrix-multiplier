@@ -1,4 +1,3 @@
-reg [3:0] Q, M;
 reg [10:0] dimension;
 
 reg [3:0] matrix_idx;
