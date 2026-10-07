@@ -1,7 +1,9 @@
 module dut_reference #(
     parameter ADDR_W = 32,
     parameter DATA_W = 128,
-    parameter MAX_D = 1024
+    parameter Q = 2,
+    parameter M = 2,
+    parameter D = 2**q 
 )(
     input clk,
     input rst_n,
