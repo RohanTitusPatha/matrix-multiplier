@@ -1,5 +1,3 @@
-// Matrix multiplication unit: output = G[M-1] x ... x G[1] x G[0] x v
-// FP64 complex data: [127:64] = real, [63:0] = imaginary
 module MyDesign #(
   parameter MAX_Q = 6,
   parameter MAX_D = (1 << MAX_Q)
